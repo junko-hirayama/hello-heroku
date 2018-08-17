@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
     .catch(() => {
       res.end('ERROR');
       client.end();
-    });  
+    });
 });
 server.listen(PORT, () => {
   // eslint-disable-next-line
